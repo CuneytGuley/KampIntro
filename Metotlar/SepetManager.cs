@@ -6,12 +6,11 @@ namespace Metotlar
 {
     class SepetManager
     {
-<<<<<<< HEAD
-        //naming convention
+        //naming convention - metotlar büyük harfle başlar Orn: Ekle
         //syntax
         public void Ekle(Urun urun)
         {
-            Console.WriteLine("Tebrikler. Sepete eklendi : " + urun.Adi);
+            Console.WriteLine("Tebrikler. " + urun.StokAdedi + "  adet  " + urun.Adi + "  Sepete eklendi. ");
         }
 
 
@@ -19,12 +18,9 @@ namespace Metotlar
         {
             Console.WriteLine("Tebrikler. Sepete eklendi : " + urunAdi);
         }
-=======
-        public void Ekle(Urun urun)
-        {
-            Console.WriteLine("Tebrikler. Sepete eklendi :" + urun.Adi);
-        }
+         
+        
 
->>>>>>> 311be2011e65b77c0b629927bdeb391cf3db196d
+
     }
 }
