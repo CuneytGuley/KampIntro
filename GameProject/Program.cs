@@ -35,6 +35,15 @@ namespace GameProject
             kampanyaManager.Delete(kampanya2);
             kampanyaManager.Update(kampanya3);
 
+            Console.WriteLine("                                                         ");
+
+            IOperationManager campaignSale = new CampaignSale();
+            IOperationManager sale = new Sale();
+            campaignSale.CampaignSell(games1,kampanya1,gamer1);
+            sale.Sell(games2,gamer2);
+
+
+
 
         }
     }
