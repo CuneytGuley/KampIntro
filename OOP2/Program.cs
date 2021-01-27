@@ -20,12 +20,14 @@ namespace OOP2
 
             Musteri musteri3 = new GercekMusteri();
             Musteri musteri4 = new TuzelMusteri();
+            
 
             MusteriManager musteriManager = new MusteriManager();
             musteriManager.Ekle(musteri1);
             musteriManager.Ekle(musteri2);
 
-
+            //Gerçek müşteri - tüzel müşteri
+            //SOLID
 
 
         }

@@ -4,6 +4,7 @@ using System.Text;
 
 namespace OOP2
 {
+    //İş sınıfları - business classes
     class MusteriManager
     {
         public void Ekle(Musteri musteri)
@@ -12,6 +13,7 @@ namespace OOP2
             //{
 
             //}
+            Console.WriteLine("Müşteri kaydedildi");
         }
     }
 }
